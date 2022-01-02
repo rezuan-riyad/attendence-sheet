@@ -1,0 +1,59 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  padding-top: 10vh;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Left Side of Home Page */
+.leftcontent{
+  width: 350px;
+  height: fit-content;
+  padding: 2rem;
+  text-align: right;
+  border-right: 2px solid gray;
+}
+
+.spanText{
+  color: green;
+}
+
+.leftcontent h1{
+  font-size: 4rem;
+  line-height: 6rem;
+  margin: 0;
+}
+
+.leftcontent p{
+  color: rgb(68, 68, 68);
+}
+
+/* Right Side of Home Page*/
+.rightcontent{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input Style */
+.input{
+  display: flex;
+  flex-direction: column;
+}
+
+.input label{
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.input select{
+  min-width: 200px;;
+  margin-bottom: 1rem;
+  padding: 4px;
+  font-size: 14px;
+}
